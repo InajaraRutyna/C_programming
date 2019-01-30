@@ -1,0 +1,188 @@
+
+Iteração 1 
+ Apresenta para a rede: x3 = (0.000000 0.000000 )
+y* = 0.000000
+y = 0.000000
+w_1 = 0.000000 w_2 = 0.000000 
+theta = -1.000000
+
+Apresenta para a rede: x0 = (1.000000 1.000000 )
+y* = -1.000000
+y = -1.000000
+w_1 = 1.000000 w_2 = 1.000000 
+theta = 0.000000
+
+Apresenta para a rede: x2 = (0.000000 1.000000 )
+y* = 1.000000
+y = 1.000000
+w_1 = 1.000000 w_2 = 0.000000 
+theta = -1.000000
+
+Apresenta para a rede: x1 = (1.000000 0.000000 )
+y* = 0.000000
+y = 0.000000
+w_1 = 0.000000 w_2 = 0.000000 
+theta = -2.000000
+
+Verificação da rede para o conjunto de truncamento
+x0 = ( 1  1 ): y* = -2.000000
+y = -1.000000 diferente de 1.000000 - errado
+
+x1 = ( 1  0 ): y* = -2.000000
+y = -1.000000 igual a  -1.000000 - correto
+
+x2 = ( 0  1 ): y* = -2.000000
+y = -1.000000 igual a  -1.000000 - correto
+
+x3 = ( 0  0 ): y* = -2.000000
+y = -1.000000 igual a  -1.000000 - correto
+
+Acerto = 75.000000%
+Fim da iteração 1 
+ 
+Iteração 2 
+ Apresenta para a rede: x2 = (0.000000 1.000000 )
+y* = -2.000000
+y = -1.000000
+
+Apresenta para a rede: x3 = (0.000000 0.000000 )
+y* = -2.000000
+y = -1.000000
+
+Apresenta para a rede: x0 = (1.000000 1.000000 )
+y* = -2.000000
+y = -1.000000
+w_1 = 1.000000 w_2 = 1.000000 
+theta = -1.000000
+
+Apresenta para a rede: x1 = (1.000000 0.000000 )
+y* = 0.000000
+y = 0.000000
+w_1 = 0.000000 w_2 = 1.000000 
+theta = -2.000000
+
+Verificação da rede para o conjunto de truncamento
+x0 = ( 1  1 ): y* = -1.000000
+y = -1.000000 diferente de 1.000000 - errado
+
+x1 = ( 1  0 ): y* = -2.000000
+y = -1.000000 igual a  -1.000000 - correto
+
+x2 = ( 0  1 ): y* = -1.000000
+y = -1.000000 igual a  -1.000000 - correto
+
+x3 = ( 0  0 ): y* = -2.000000
+y = -1.000000 igual a  -1.000000 - correto
+
+Acerto = 75.000000%
+Fim da iteração 2 
+ 
+Iteração 3 
+ Apresenta para a rede: x2 = (0.000000 1.000000 )
+y* = -1.000000
+y = -1.000000
+
+Apresenta para a rede: x1 = (1.000000 0.000000 )
+y* = -2.000000
+y = -1.000000
+
+Apresenta para a rede: x3 = (0.000000 0.000000 )
+y* = -2.000000
+y = -1.000000
+
+Apresenta para a rede: x0 = (1.000000 1.000000 )
+y* = -1.000000
+y = -1.000000
+w_1 = 1.000000 w_2 = 2.000000 
+theta = -1.000000
+
+Verificação da rede para o conjunto de truncamento
+x0 = ( 1  1 ): y* = 2.000000
+y = 1.000000 igual a  1.000000 - correto
+
+x1 = ( 1  0 ): y* = 0.000000
+y = 0.000000 diferente de -1.000000 - errado
+
+x2 = ( 0  1 ): y* = 1.000000
+y = 1.000000 diferente de -1.000000 - errado
+
+x3 = ( 0  0 ): y* = -1.000000
+y = -1.000000 igual a  -1.000000 - correto
+
+Acerto = 50.000000%
+Fim da iteração 3 
+ 
+Iteração 4 
+ Apresenta para a rede: x1 = (1.000000 0.000000 )
+y* = 0.000000
+y = 0.000000
+w_1 = 0.000000 w_2 = 2.000000 
+theta = -2.000000
+
+Apresenta para a rede: x0 = (1.000000 1.000000 )
+y* = 0.000000
+y = 0.000000
+w_1 = 1.000000 w_2 = 3.000000 
+theta = -1.000000
+
+Apresenta para a rede: x3 = (0.000000 0.000000 )
+y* = -1.000000
+y = -1.000000
+
+Apresenta para a rede: x2 = (0.000000 1.000000 )
+y* = 2.000000
+y = 1.000000
+w_1 = 1.000000 w_2 = 2.000000 
+theta = -2.000000
+
+Verificação da rede para o conjunto de truncamento
+x0 = ( 1  1 ): y* = 1.000000
+y = 1.000000 igual a  1.000000 - correto
+
+x1 = ( 1  0 ): y* = -1.000000
+y = -1.000000 igual a  -1.000000 - correto
+
+x2 = ( 0  1 ): y* = 0.000000
+y = 0.000000 diferente de -1.000000 - errado
+
+x3 = ( 0  0 ): y* = -2.000000
+y = -1.000000 igual a  -1.000000 - correto
+
+Acerto = 75.000000%
+Fim da iteração 4 
+ 
+Iteração 5 
+ Apresenta para a rede: x0 = (1.000000 1.000000 )
+y* = 1.000000
+y = 1.000000
+
+Apresenta para a rede: x3 = (0.000000 0.000000 )
+y* = -2.000000
+y = -1.000000
+
+Apresenta para a rede: x2 = (0.000000 1.000000 )
+y* = 0.000000
+y = 0.000000
+w_1 = 1.000000 w_2 = 1.000000 
+theta = -3.000000
+
+Apresenta para a rede: x1 = (1.000000 0.000000 )
+y* = -2.000000
+y = -1.000000
+
+Verificação da rede para o conjunto de truncamento
+x0 = ( 1  1 ): y* = -1.000000
+y = -1.000000 diferente de 1.000000 - errado
+
+x1 = ( 1  0 ): y* = -2.000000
+y = -1.000000 igual a  -1.000000 - correto
+
+x2 = ( 0  1 ): y* = -2.000000
+y = -1.000000 igual a  -1.000000 - correto
+
+x3 = ( 0  0 ): y* = -3.000000
+y = -1.000000 igual a  -1.000000 - correto
+
+Acerto = 75.000000%
+Fim da iteração 5 
+ 
